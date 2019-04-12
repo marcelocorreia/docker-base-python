@@ -52,5 +52,5 @@ open-page:
 define git_push
 	-git add .
 	-git commit -m "$1"
-	-git push git
+	-git push 
 endef
