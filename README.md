@@ -1,16 +1,20 @@
-<!-- Auto generated file, please refer to README.yml -->
-# Docker marcelocorreia/base-python
+<!-- Auto generated file, DO NOT EDIT. Please refer to README.yml -->
+# docker-base-python
 
 ---
-[![shield](https://img.shields.io/docker/pulls/marcelocorreia/base-ruby.svg)](https://img.shields.io/docker/pulls/marcelocorreia/base-ruby.svg)
-[![shield](https://img.shields.io/github/languages/top/marcelocorreia/docker-base-ruby.svg)](https://img.shields.io/github/languages/top/marcelocorreia/docker-base-ruby.svg)
+![https://img.shields.io/docker/pulls/marcelocorreia/base-python.svg](https://img.shields.io/docker/pulls/marcelocorreia/base-python.svg)
+![https://img.shields.io/github/languages/top/marcelocorreia/docker-base-python.svg](https://img.shields.io/github/languages/top/marcelocorreia/docker-base-python.svg)
+![https://api.travis-ci.org/marcelocorreia/docker-base-python.svg?branch=master](https://api.travis-ci.org/marcelocorreia/docker-base-python.svg?branch=master)
+![https://img.shields.io/github/release/marcelocorreia/docker-base-python.svg?flat-square](https://img.shields.io/github/release/marcelocorreia/docker-base-python.svg?flat-square)
 ---
 ### TLDR;
 - [Overview](#overview)
 - [Description](#description)
 - [Dockerfile](#dockerfile)
 - [Usage](#usage)
+- [Setting Timezone](#setting-timezone)
 - [License](#license)
+- **Semver versioning**
 ### Overview
 Docker Python Base image
 
@@ -20,16 +24,16 @@ Docker Python Base image
 
 ### Usage
 ```bash
-$ docker run --rm marcelocorreia/base-ruby node -v
+$ docker run --rm marcelocorreia/base-python python -v
 
 ```
 ## Setting timezone
 ```bash
-$ docker run --rm -e TZ=Australia/Sydney marcelocorreia/base-ruby node -v
+$ docker run --rm -e TZ=Australia/Sydney marcelocorreia/base-python python -v
 ```
 ### Extending
 ```Dockerfile
-FROM marcelocorreia/base-ruby
+FROM marcelocorreia/base-python
 ...
 ```
 **Targets**
@@ -59,12 +63,11 @@ RUN set -ex && \
 CMD ["uname","-a"]
 ```
 
-<!-- Apache License -->
-### License 
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+### License
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Copyright [2015] 
+Copyright [2015]
 
     Licensed to the Apache Software Foundation (ASF) under one
     or more contributor license agreements.  See the NOTICE file
@@ -82,7 +85,10 @@ Copyright [2015]
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-    
+
+
+---
+[:hammer:**Created with a Hammer**:hammer:](https://github.com/marcelocorreia/hammer)
 <!-- -->
 
 
@@ -90,13 +96,13 @@ Copyright [2015]
 
 
 
-[github]: https://github.com/marcelocorreia
-
-[linkedin]: https://www.linkedin.com/in/marcelocorreia/
 
 
 
-[slack]: https://correia-group.slack.com/
+
+
+
+
 
 
 
